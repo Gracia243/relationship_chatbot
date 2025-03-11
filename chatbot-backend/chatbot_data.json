@@ -1,0 +1,218 @@
+{"training_data": 
+  {
+    "communication": {
+      "training_phrases": [
+        "I have trouble talking to my partner",
+        "We don’t communicate well",
+        "How can I improve communication?",
+        "I have trouble talking to my partner"
+      ],
+      "responses": [
+          "Good communication is key. Have you tried openly discussing your thoughts with your partner?",
+          "Healthy relationships need open conversations. What’s stopping you from talking to them?",
+          "It's important to express your feelings. Maybe start with small, honest conversations."
+      ]
+    },
+
+    "trust": {
+      "training_phrases" : [
+        "I don't trust my partner",
+        "How do I rebuild trust?",
+        "My partner lied to me",
+        "I have trust issues in relationships",
+        "Can trust be regained after cheating?",
+        "I feel insecure in my relationship",
+        "My partner hides things from me"
+      ],
+      "responses": [
+        "Building trust takes time and effort. What makes you feel unsure?",
+        "Trust issues can be tough. Have you shared your concerns with your partner?",
+        "Trust is built with honesty and consistency. Maybe small steps can help rebuild it.",
+        "If your partner lied, try to understand why before making a decision.",
+        "Feeling insecure is valid. Have you talked openly about what makes you uncomfortable?"
+      ]
+    },
+
+    "conflict": {
+      "training_phrases":[
+        "We argue a lot",
+        "How do we resolve fights?",
+        "How do we avoid conflicts?",
+        "Every conversation turns into a fight",
+        "We have different opinions and always clash",
+        "My partner refuses to listen during arguments",
+        "How do I calm down during a fight?"
+      ],
+      "responses": [
+        "Conflict is normal, but resolution matters. Try to use 'I' statements instead of blaming.",
+        "Arguments happen, but listening with empathy can help. Have you tried seeing their perspective?",
+        "If every conversation turns into a fight, maybe taking a break before responding could help.",
+        "Finding common ground is important. What is the main issue causing these arguments?",
+        "Try to focus on understanding rather than winning an argument."
+      ]
+    },
+
+    "love_langauge": {
+      "training_phrases": [
+        "What is my love language?",
+        "How do I show love?",
+        "How can I express my feelings?",
+        "My partner and I have different love languages",
+        "My partner doesn’t understand my way of showing love",
+        "I feel unloved even though my partner says they love me",
+        "How do I know my partner's love language?"
+      ],
+      "responses": [
+        "Understanding love languages helps! Do you know if your partner prefers words, gifts, or time?",
+        "Different people express love differently. Have you noticed what makes them happy?",
+        "If your love languages are different, communicating your needs can make a big difference.",
+        "Sometimes, people show love in ways they were taught. Maybe exploring different approaches can help.",
+        "You deserve to feel loved in a way that makes sense to you."
+      ]
+    },
+
+    "infedility": {
+      "training_phrases": [
+        "I think my partner is cheating on me",
+        "How do I confront my partner about cheating?",
+        "Should I forgive my partner for cheating?",
+        "Can a relationship survive after cheating?",
+        "My partner is being secretive, could they be cheating?",
+        "I cheated and I regret it, what should I do?",
+        "How do I move on after being cheated on?"
+      ],
+      "responses": [
+        "Cheating is painful. If you suspect infidelity, open communication is key.",
+        "If you've been cheated on, your feelings are completely valid. Do you feel safe discussing this with your partner?",
+        "Forgiving infidelity is a personal choice. Do you feel like trust can be rebuilt?",
+        "If your partner is being secretive, it might help to express your concerns directly.",
+        "If you cheated and regret it, being honest and taking responsibility is a good first step."
+      ]
+    },
+
+    "honesty" : {
+      "training_phrases": [
+        "How do I tell my partner the truth?",
+        "I feel guilty hiding things from my partner",
+        "Should I be completely honest in a relationship?",
+        "Is it okay to keep some things to myself?",
+        "I lied to my partner, what should I do?",
+        "Should I confess if I cheated?"
+      ],
+      "responses": [
+        "Honesty is important in a relationship, but timing and delivery matter too.",
+        "Being truthful is important, but make sure to consider your partner's feelings.",
+        "It's good to express your feelings, but choose a moment when both of you can talk openly.",
+        "If you lied about something, acknowledging it and taking responsibility is the first step to rebuilding trust."
+      ]
+    },
+
+    "breakup": {
+      "training_phrases": [
+        "I feel like my feelings are gone",
+        "I don't love my partner anymore",
+        "I am thinking about breaking up",
+        "Should I break up?",
+        "How do I end a relationship peacefully?",
+        "I'm afraid of hurting my partner if I leave",
+        "I feel stuck in my relationship",
+        "What if I regret breaking up?"
+      ],
+      "responses": [
+        "Ending a relationship is difficult, but your feelings matter. If you're unsure, take time to reflect on what you want.",
+        "If you're not happy, it’s okay to think about moving on. It’s important to be honest with yourself and your partner.",
+        "Breaking up is never easy, but sometimes it's the best choice for both people.",
+        "If you're scared of hurting your partner, try to approach the conversation with kindness and honesty.",
+        "Relationships should make you happy. If you feel stuck, it might be time to reconsider your options."
+      ]
+    },
+
+    "sadness": {
+      "training_phrases": [
+        "I feel really down",
+        "I'm so sad lately",
+        "I don't know why, but I'm feeling really low",
+        "Nothing makes me happy anymore",
+        "I feel empty inside",
+        "I just want to cry all the time",
+        "Why do I always feel this way?",
+        "I can't seem to shake off this sadness"
+      ],
+      "responses": [
+      "I'm really sorry you're feeling this way. Can you tell me what's been going on?",
+      "It's okay to feel sad. What’s making you feel this way?",
+      "You don’t have to go through this alone. I’m here if you want to talk."
+      ]
+    },
+      
+    "love_issue": {
+      "training_phrases": [
+        "I'm in love with someone who doesn't love me back",
+        "Why is love so complicated?",
+        "I feel heartbroken",
+        "Love always hurts me",
+        "I don’t know if my partner really loves me",
+        "Unrequited love is painful",
+        "I keep falling for the wrong person",
+        "I feel stuck in a relationship I don’t want"
+      ],
+      "responses": [
+        "It sounds like you're dealing with a tough situation. Have you considered talking to a counselor or a close friend?",
+        "I understand how painful that must be. Do you feel like you need more support right now?",
+        "Love is complex, and it's okay to have feelings for someone, even if they don't exist in the way you want."
+      ]
+    },
+
+    "family_conflict" : {
+      "training_phrases": [
+        "I keep fighting with my parents",
+        "My family doesn’t understand me",
+        "I feel like an outsider in my own family",
+        "My parents are getting divorced",
+        "I don't know how to talk to my parents about my problems",
+        "My siblings and I always argue",
+        "My family is very toxic",
+        "I feel like I can’t trust my family"
+      ],
+      "responses": [
+        "I know family problems can be really challenging. Have you tried talking openly with your mom or dad?",
+        "Divorce is tough, especially on a child. Are you okay? Have you talked to someone about it?"
+      ] 
+    },
+  
+    "domestic_violence": {
+      "training_phrases": [
+        "My partner is abusive",
+        "I'm afraid of my partner",
+        "My partner controls everything I do",
+        "What should I do if my partner hits me?",
+        "I feel trapped in an abusive relationship",
+        "How do I escape a violent relationship?",
+        "My partner insults me all the time, is this abuse?",
+        "I feel unsafe at home"
+      ],
+      "responses": [
+        "Your safety is the most important thing. If you are in danger, please seek help immediately.",
+        "Abuse is never okay. Do you have a trusted friend or support system to reach out to?",
+        "If you feel unsafe, consider reaching out to a local support service or helpline.",
+        "No one deserves to be controlled or hurt. You are not alone, and there are people who can help you.",
+        "Leaving an abusive relationship is difficult, but support is available. Do you have a plan to stay safe?"
+      ]
+    },
+    "default": {
+      "responses": [
+        "I'm here to help. Can you tell me more about what's on your mind?",
+        "That sounds important. Would you like to talk more about it?",
+        "I'm here to listen. Can you share more details?"
+      ]
+    }
+  },
+  "urgent_words": [
+    "kill",
+    "beat",
+    "abuse",
+    "violence",
+    "afraid",
+    "forced"
+  ]
+}
