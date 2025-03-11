@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.chat-container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.chat-box {
+  max-height: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.message {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  display: inline-block;
+  word-wrap: break-word; /* This allows text to break into the next line */
+  white-space: normal; /* Ensure text wraps inside the message box */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.message.user {
+  background-color: #d4f5a4; /* User's message in light green */
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message.bot {
+  background-color: #e1e1e1; /* Bot's message in light gray */
+  align-self: flex-start;
+  text-align: left;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  margin-right: 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 20px;
   color: white;
+  cursor: pointer;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
