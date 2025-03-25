@@ -16,11 +16,11 @@ sia = SentimentIntensityAnalyzer()
 
 # Load training data from JSON file
 def load_training_data():
-    with open("chatbot_data.json", "r", encoding="utf-8") as file:
+    with open("responses.json", "r", encoding="utf-8") as file:
         return json.load(file)["training_data"]
 
 def load_urgent_words():
-    with open("chatbot_data.json", "r", encoding="utf-8") as file:
+    with open("responses.json", "r", encoding="utf-8") as file:
         return json.load(file)["urgent_words"]
 
 training_data = load_training_data()
